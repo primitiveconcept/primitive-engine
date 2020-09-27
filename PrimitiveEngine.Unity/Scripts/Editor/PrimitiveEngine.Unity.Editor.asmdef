@@ -1,0 +1,17 @@
+{
+    "name": "PrimitiveEngine.Unity.Editor",
+    "references": [
+        "GUID:b0a8433111c8beb4ab40f1485beb9bba",
+        "GUID:7e7adcd4634d14643bdcf5c7cc44ee3b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

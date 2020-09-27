@@ -1,0 +1,12 @@
+{
+	"name": "com.primitiveconcept.primitive-engine",
+	"version": "1.0.0",
+	"displayName": "Primitive Engine",
+	"description": "C# ECS architecture forked from Artemis, with Unity bindings.",
+	"unity": "2018.3",
+	"author": {
+		"name": "Zachary White",
+		"email": "zallenwhite@primitiveconcept.com",
+		"url": "https://www.primitiveconcept.com"
+	}	
+}

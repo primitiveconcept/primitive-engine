@@ -1,0 +1,14 @@
+{
+    "name": "PrimitiveEngine.Unity",
+    "references": [
+        "GUID:7e7adcd4634d14643bdcf5c7cc44ee3b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
