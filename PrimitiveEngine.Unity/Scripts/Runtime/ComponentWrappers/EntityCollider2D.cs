@@ -1,4 +1,4 @@
-namespace PrimitiveEngine.Unity.ComponentWrappers
+namespace PrimitiveEngine.Unity
 {
     using System;
     using System.Collections.Generic;

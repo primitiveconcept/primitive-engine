@@ -41,8 +41,8 @@
         /// automatically passed as arguments.
         /// </summary>
         /// <param name="entity">The entity that is processed </param>
-        /// <param name="component1">The component.</param>
-        public abstract void Process(Entity entity, T component1);
+        /// <param name="component">The component.</param>
+        public abstract void Process(Entity entity, T component);
 
 
         /// <summary>
@@ -97,9 +97,9 @@
         /// Called every for every entity in this system with the components automatically passed as arguments.
         /// </summary>
         /// <param name="entity">The entity that is processed </param>
-        /// <param name="physicsBody>The first component.</param>
+        /// <param name="component1>The first component.</param>
         /// <param name="component2">The second component.</param>
-        public abstract void Process(Entity entity, T1 physicsBody, T2 component2);
+        public abstract void Process(Entity entity, T1 component1, T2 component2);
 
 
         /// <summary>

@@ -1,5 +1,6 @@
 namespace PrimitiveEngine.Unity
 {
+	using System;
 	using PrimitiveEngine;
 	using UnityEngine;
 
@@ -15,6 +16,13 @@ namespace PrimitiveEngine.Unity
 		public virtual void Awake()
 		{
 			this.Entity = AttachToEntity();
+		}
+
+
+		public virtual void OnDestroy()
+		{
+			Debug.Log($"Removing {this.GetType().Name} component.");
+			this.Entity.RemoveComponent(this.GetType());
 		}
 
 
